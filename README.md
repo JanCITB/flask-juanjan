@@ -23,6 +23,10 @@ docker run -p 5000:5000 -p 22:22 flask
 ### 4️⃣ Accedir a l'aplicació Flask:
 Obre el teu navegador i ves a:
 
+### 📌 Archivos:
+He añadido al git-hub flask-juan los archivos que he utilizado.
+
+
 🔗 [http://localhost:5000](http://localhost:5000)
 
 ---
