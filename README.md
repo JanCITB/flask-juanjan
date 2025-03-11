@@ -2,7 +2,7 @@
 
 Aquest repositori conté un Dockerfile per construir una imatge Docker d'una aplicació Flask.
 
-##🚀 Passos per executar la imatge
+## 🚀 Passos per executar la imatge
 
 ### 1️⃣ Clonar el repositori:
 ```sh
