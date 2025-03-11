@@ -1,0 +1,3 @@
+rflask
+gunicorn
+psycopg2-binary
