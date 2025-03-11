@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Puntuacions</title>
+</head>
+<body>
+    <h1>Puntuacions</h1>
+    <h2>Rànquing de Jugadors</h2>
+    <table border="1">
+        <tr>
+            <th>Posició</th>
+            <th>Jugador</th>
+            <th>Puntuació</th>
+        </tr>
+        {% for index, (jugador, puntuacio) in enumerate(puntuacions.items(), start=1) %}
+        <tr>
+            <td>{{ index }}</td>
+            <td>{{ jugador }}</td>
+            <td>{{ puntuacio }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
